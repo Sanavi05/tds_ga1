@@ -1,0 +1,13 @@
+name: Simple GitHub Action
+
+on:
+  push:
+    branches:
+      - main  # Or any branch you want to trigger the action on
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2002583@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
